@@ -3,7 +3,7 @@ name: Extract ZIP file
 on:
   push:
     paths:
-      - 'https://github.com/renz182003/graphql-movie-api/blob/main/sysarch%20lab%20act.zip'
+      - 'sysarch lab act.zip'
 
 jobs:
   extract-zip:
@@ -17,7 +17,7 @@ jobs:
         run: sudo apt-get install unzip
 
       - name: Extract ZIP file
-        run: unzip path/to/your/file.zip -d extracted_files/
+        run: unzip 'sysarch lab act.zip' -d extracted_files/
 
       - name: Commit extracted files
         run: |
