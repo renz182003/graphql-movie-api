@@ -3,7 +3,7 @@ name: Extract ZIP file
 on:
   push:
     paths:
-      - 'https://github.com/renz182003/graphql-movie-api/tree/main'
+      - 'https://github.com/renz182003/graphql-movie-api/blob/main/sysarch%20lab%20act.zip'
 
 jobs:
   extract-zip:
